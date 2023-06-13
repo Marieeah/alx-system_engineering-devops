@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -iname "*.gif" exec basename {} .gif \; |
+find . -empty -printf "%f\n"
